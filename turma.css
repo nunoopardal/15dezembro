@@ -73,11 +73,11 @@ li {width: 45%; }
     .numero {text-align: center;}
 }
 
- li 
+li
 {
     background-image: url("outro\ campo\ 1.jpg");
-    background-size: 15cm;
-    background-repeat: round;
+    background-size: 14cm;
+    background-repeat:no-repeat;
     color:white
 }
 
@@ -87,14 +87,23 @@ h2
 background-repeat: no-repeat;
 background-position:31cm;
 background-size: contain;
+font-size: 30px;
+
 }
 
 h3 
 {
     background-image: url("portugal_glossy_round_icon_640.png");
 background-repeat: no-repeat;
-background-position:30cm;
+background-position:31cm;
 background-size: contain;
+font-size: 30px;
+}
+
+h4 
+{
+    font-size: 30px;
+
 }
 
 div.jogadores
@@ -103,3 +112,32 @@ div.jogadores
 align-items:center ;
 }
 
+#menu ul {
+    padding:50px;
+    margin:20px;
+    float:left;
+    width: 100%;
+    background-color:royalblue;
+    list-style:none;
+    font:150% Tahoma;
+}
+
+#menu ul li { display:unset; }
+
+#menu ul li a {
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 2px 10px;
+    float:left;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color:red;
+    border-bottom:5px solid #EA0000;
+
+ }
+
+ 
