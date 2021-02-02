@@ -116,7 +116,8 @@ h4
 
 div.jogadores
 {
-    display: flex; justify-content: space-around;
+    display: flex; 
+    justify-content: inherit;
 align-items:center ;
 }
 
@@ -161,4 +162,8 @@ font-size: 30px;
 text-align: center;
 background-color: greenyellow;
 width: 110%;
+}
+
+.capa{
+    
 }
